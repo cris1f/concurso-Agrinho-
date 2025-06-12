@@ -1,0 +1,21 @@
+body {
+  
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  background: #fefae0;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+.imagens {
+  
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.imagens img {
+  width: 250px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 15px #000000;
+}
