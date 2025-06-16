@@ -19,3 +19,30 @@ body {
   border-radius: 10px;
   box-shadow: 0px 5px 15px #000000;
 }
+
+/* TABELA (linha e coluna)*/
+/* Coloca 4 colunas lado a lado*/
+.coluna {
+  float: left;
+  margin-left: 6%;
+  width: 25%;
+  padding: 8px 8px;
+  padding-top: 50px;
+}
+
+.linha {margin: 0 75px;}
+
+.linha:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Colunas Responsivas */
+@media screen and (max-width: 600px) {
+  .coluna {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
